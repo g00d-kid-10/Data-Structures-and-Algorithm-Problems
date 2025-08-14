@@ -1,0 +1,40 @@
+# ========================
+# Executable / Binary files
+# ========================
+
+# Windows executables
+*.exe
+*.dll
+*.bat
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# C / C++
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.lib
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Go
+*.exe
+*.out
+*.test
+
+# Linux / macOS binaries
+*.out
+*.o
+*.so
+*.a
+*.elf
