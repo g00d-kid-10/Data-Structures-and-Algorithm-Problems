@@ -26,4 +26,11 @@ class RotatedSearch {
 
         return ans;
     }
+
+    public static void main(String[] args) {
+        int[] nums = {4, 5, 6, 7, 0, 1, 2};
+        int value = 0;
+        int index = rotatedSearch(0, nums.length - 1, nums, value);
+        System.out.println("Index of " + value + ": " + index); // Output: Index of 0: 4
+    }
 }

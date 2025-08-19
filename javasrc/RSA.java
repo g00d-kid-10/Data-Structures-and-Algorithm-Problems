@@ -22,4 +22,11 @@ class RSA {
 
         return r;
     }
+
+    public static void main(String[] args) {
+        int[] nums = {4, 5, 6, 7, 0, 1, 2};
+        RSA rsa = new RSA(nums);
+        int pivotIndex = rsa.pivot();
+        System.out.println("Pivot index: " + pivotIndex); // Output: Pivot index: 4
+    }
 }
